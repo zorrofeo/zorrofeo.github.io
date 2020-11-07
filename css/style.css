@@ -1,0 +1,38 @@
+.mainbg {
+    background-image: url(../img/bg.png);
+    background-position: center center;
+    background-size: cover;
+    height: 94vh;
+    min-height: 10rem;
+}
+
+/* Header */
+.site-header {
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
+.site-header.inicio {
+    background-image: url(../img/bg.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.contenido-header {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.barra {
+    padding-top: 1rem;
+}

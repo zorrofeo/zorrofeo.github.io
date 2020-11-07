@@ -1,5 +1,5 @@
 .mainbg {
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bg.jpg);
     background-position: center center;
     background-size: cover;
     height: 94vh;
@@ -7,17 +7,6 @@
 }
 
 /* Header */
-.site-header {
-    background-color: #333333;
-    padding: 1rem 0 3rem 0;
-}
-.site-header.inicio {
-    background-image: url(../img/bg.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 100vh;
-    min-height: 60rem;
-}
 
 .contenedor {
     width: 95%;

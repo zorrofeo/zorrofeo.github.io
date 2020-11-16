@@ -1,0 +1,53 @@
+.banner-fondo{
+    height: 75vh;
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/header.jpg");
+    position: relative;
+}
+
+.banner-letras{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    font-size: 4vh;
+    color: white;
+    width: 33%;
+    font-weight: 100;
+    line-height: 110%;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.banner-redes{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.telegram{
+    background-color: #1e94d0;
+    height: 35px;
+}
+
+.twitter{
+    background-color: #00b0e9;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.banner-redes a{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+}

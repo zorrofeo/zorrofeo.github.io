@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,151 +7,67 @@
 
     <!---Librerias--->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <style>
-        body{background-color: black !important;}
-
-        .navbar-dark .navbar-nav .nav-link:focus,
-        .navbar-dark .navbar-nav .nav-link:hover,
-        .navbar-dark .navbar-nav .nav-link:active {
-            color: #d7802d !important;
-        }
-
-        .navbar-dark {
-        font-size: 14px;
-        background-color: rgba(30, 31, 33, 1) !important;
-        }
-
-        .navbar-dark .navbar-nav>li>a {
-        color: rgba(255, 255, 255, 1) !important;
-        }
-
-        .hd-bg{
-            width: 100%;
-        }
-
-        .caja{
-            position: relative;
-            display: inline-block;
-        }
-
-        .texto1{
-            position: absolute;
-            top: 20rem;
-            left: 39.5rem;
-            text-align: center;
-            font-size: 2.4rem;
-            color: white;
-            width: 33%;
-            font-weight: 100;
-            line-height: 110%;
-            text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
-        }
-
-        .texto2{
-            position: absolute;
-            top: 25.5rem;
-            left: 41.5rem;
-            text-align: center;
-            font-size: 1.8rem;
-            color: white;
-            width: 30%;
-            font-weight: 700;
-            line-height: 110%;
-            text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
-        }
-
-        .gl-cabeza{
-            color: #7b5027 ;
-            font-size: 3rem;
-            font-weight: 100;
-        }
-
-        .gl-texto{
-            color: #c4c4c4;
-            font-weight: 300;
-            font-size: 1.1rem;
-            padding-bottom: 2rem;
-        }
-
-        .caja2{
-            background-color: #1e1f21;
-        }
-
-
-    </style>
-
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 
 <body>
-    <div class="">
-        <!---NAVBAR--->
-        <div class="row">
-            <div class="col">
-                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                    <img style="margin-left: 1rem;" src="/img/Firma.png" width="120" height="30" alt="">
-                    <ul class="navbar-nav mx-auto" style="width: 33rem;">
-                        <li class="nav-item">
-                            <a class="nav-link mx-3" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-3" href="#">Galeria</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-3" href="#">Sobre Mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-3" href="#">Contacto</a>
-                        </li>
-                    </ul>
-                </nav>
+
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link mx-3" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link mx-3" href="#">Galeria</a>
+               </li>
+               <li class="nav-item">
+                    <a class="nav-link mx-3" href="#">Sobre Mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3" href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <img class="logo-navbar" src="/img/Logo.png" width="50" height="50" alt="">
+        <img class="img-navbar" src="/img/Firma.png" width="120" height="40" alt="">
+    </header>
+
+    <section>
+
+        <div class="banner-fondo">
+
+            <div class="banner-letras text-center">
+                <p>Un artista con la carrera tan larga como la esperanza de los argentinos</p>
+                <p style="font-weight: 700;">DIBUJANTE CON 40 AÑOS DE EXPERIENCIA</p>
             </div>
-        </div>
-        <!---HEADER--->
-        <div class="row">
-            <div class="col caja">
-                <img class="hd-bg" src="/img/header.jpg" alt="">
-                <div class="texto1">Un artista con la carrera tan larga como la esperanza de los argentinos</div>
-                <div class="texto2">DIBUJANTE CON 40 AÑOS DE EXPERIENCIA</div>
-            </div>
-        </div>
-        <!---GALERIA--->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col caja2 text-center">
-                    <div class="gl-cabeza">Galeria</div>
-                    <div class="gl-texto"">Aqui se publican tanto mis dibujos personales como las comisiones que he hecho</div>
+
+            <div class="banner-redes">
+                <div class="telegram">
+                    <a href="#">Telegram</a>
+                </div>
+                <div class="twitter">
+                    <a href="#">Twitter</a>
                 </div>
             </div>
+            
         </div>
-        <!---IMAGENES--->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col text-center" style="background-color: #3e3e40; padding-top: 10px;">
-                    <div class="card-deck" >
-                        <div class="card" style="background-color: #3e3e40 ;" >
-                          <img src="img/logo_alt.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
+    </section>
 
-                          </div>
-                        </div>
-                        <div class="card" style="background-color: #3e3e40 ;">
-                          <img src="img/logo_alt.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                          </div>
-                        </div>
-                        <div class="card" style="background-color: #3e3e40 ;">
-                          <img src="img/logo_alt.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-
-                          </div>
-                        </div>
-                      </div>
-                </div>
-            </div>
+    <section>
+        <div class="galeria text-center">
+            <h2>Galeria</h2>
+            <p>Aqui se publican tanto mis dibujos personales como las comisiones que he hecho</p>
         </div>
-    </div>
+
+        <div class="galeria-imagenes mx-auto text-center">
+			<img src="img/logo_alt.jpg" alt="" width="20%" height="20%"/>
+        	<img src="img/logo_alt.jpg" alt="" width="20%" height="20%"/>
+			<img src="img/logo_alt.jpg" alt="" width="20%" height="20%"/>
+			<img src="img/logo_alt.jpg" alt="" width="20%" height="20%"/>
+        </div>
+    </section>
 </body>
 </html>
-
-

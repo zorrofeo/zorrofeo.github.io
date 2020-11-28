@@ -6,9 +6,11 @@
     <title>ZorroFeo</title>
 
     <!---Librerias--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 
 
@@ -18,16 +20,13 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link mx-3" href="#">Inicio</a>
+                    <a class="nav-link mx-3" href="#inicio">Inicio</a>
                 </li>
                 <li class="nav-item">
-                   <a class="nav-link mx-3" href="#">Galeria</a>
+                   <a class="nav-link mx-3" href="#galeria">Galeria</a>
                </li>
-               <li class="nav-item">
-                    <a class="nav-link mx-3" href="#">Sobre Mi</a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-3" href="#">Contacto</a>
+                    <a class="nav-link mx-3" href="#contacto">Contacto</a>
                 </li>
             </ul>
         </nav>
@@ -35,7 +34,7 @@
         <img class="img-navbar" src="/img/Firma.png" width="120" height="40" alt="">
     </header>
 
-    <section>
+    <section id="inicio">
 
         <div class="banner-fondo">
 
@@ -46,28 +45,79 @@
 
             <div class="banner-redes">
                 <div class="telegram">
-                    <a href="#">Telegram</a>
+                    <a href="https://t.me/FeoZorro" target="_blank">Telegram</a>
                 </div>
                 <div class="twitter">
-                    <a href="#">Twitter</a>
+                    <a href="https://twitter.com/FeoZorro" target="_blank">Twitter</a>
                 </div>
             </div>
             
         </div>
     </section>
 
-    <section>
+    <section id="galeria">
         <div class="galeria text-center">
             <h2>Galeria</h2>
             <p>Aqui se publican tanto mis dibujos personales como las comisiones que he hecho</p>
         </div>
 
-        <div class="galeria-imagenes mx-auto text-center">
-			<img src="img/logo_alt.jpg" alt="" width="20%" height="20%"/>
-        	<img src="img/logo_alt.jpg" alt="" width="20%" height="20%"/>
-			<img src="img/logo_alt.jpg" alt="" width="20%" height="20%"/>
-			<img src="img/logo_alt.jpg" alt="" width="20%" height="20%"/>
+        <div class="gallery-block grid-gallery fondo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="img/2.jpg">
+                        <img class="img-fluid image scale-on-hover" src="img/2.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="img/5.jpg">
+                        <img class="img-fluid image scale-on-hover" src="img/5.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="img/4.jpg">
+                        <img class="img-fluid image scale-on-hover" src="img/4.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="img/1.jpg">
+                        <img class="img-fluid image scale-on-hover" src="img/1.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="img/3.jpg">
+                        <img class="img-fluid image scale-on-hover" src="img/3.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <a class="lightbox" href="img/6.jpg">
+                        <img class="img-fluid image scale-on-hover" src="img/6.jpg">
+                    </a>
+                </div>
+            </div>
         </div>
+    </div>
     </section>
+
+    <section id="contacto">
+        <div class="text-center footer">
+            <img src="img/Logo.png" alt="Logo" style="width:200px;">
+            <p>Puedes contactarme atravez de <a href="https://twitter.com/FeoZorro" target="_blank">Twitter</a> y <a href="https://t.me/FeoZorro" target="_blank">Telegram</a>.</p>
+        </div>
+     </section>
+     <section class="copyright fondo">
+         <div class="container">
+             <div class="row text-center ">
+                 <div class="col-md-12 pt-3 ">
+                     <p style="color: #c4c4c4;">© 2020 Kestrel. Ltd.</p>
+                 </div>
+             </div>
+         </div>
+     </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.grid-gallery', { animation: 'slideIn'});
+    </script>
 </body>
 </html>
